@@ -40,6 +40,8 @@ export default {
     kdForm,
     kdInput,
   },
+  mounted() {
+  },
   methods: {
     handleSubmit() {
       console.log(this.$refs.form);
